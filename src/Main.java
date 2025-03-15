@@ -19,6 +19,12 @@ public class Main {
         System.out.println("Balance after invalid update: " + bankAccount.getBalance());
 
 
+       //4. Simple Inheritance
+         Animal animal = new Animal();
+         Animal dog = new Dog();
+         animal.makeSound();
+         dog.makeSound();
+
         //5. Method Overloading
         Calculator calculator = new Calculator();
         int res = calculator.Add(6 ,7);
@@ -26,5 +32,9 @@ public class Main {
 
         double res1 = calculator.Add(3.6 ,2.8);
         System.out.println("som of double :"+ res1);
+
+
+
     }
+
 }
