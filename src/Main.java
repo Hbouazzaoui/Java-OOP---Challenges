@@ -1,10 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Person person = new Person();
-        person.name = "ahmad";
-        person.age = 23;
 
-        person.introduce();
+     Student student = new Student(2,"Hamouda", "A");
+        System.out.println(student.id);
+        System.out.println(student.name);
+        System.out.println(student.grade);
+
+
+
+
+
+
     }
 }
